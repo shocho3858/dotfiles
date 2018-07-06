@@ -14,11 +14,10 @@ fi
 # export PATH="/home/maqiu/anaconda2/bin:$PATH"
 
 # alias tmux="/home/maqiu/local/bin/tmux"
-# export PATH="$HOME/local/bin:$PATH"
-
-# set -o vi
 
 # export PYTHONPATH='/home/maqiu/local/faiss/python:$PYTHONPATH'
 # alias tensorboard="CUDA_VISIBLE_DEVICES='' tensorboard --port=6007 "
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+export PATH="$HOME/local/bin:$PATH"
+set -o vi
