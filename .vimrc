@@ -420,6 +420,9 @@ Plugin 'kien/ctrlp.vim'
 
 Plugin 'tpope/vim-surround'
 
+Plugin 'ervandew/supertab'
+" let g:SuperTabDefaultCompletionType = "<c-x><c-u>"
+let g:SuperTabDefaultCompletionType = "context"
 
 Plugin 'vim-scripts/vim-auto-save'
 let g:auto_save = 1
